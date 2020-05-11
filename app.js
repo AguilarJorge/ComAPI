@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const rutas = require('./rutas/main');
-const puerto = 3000;  
+const puerto = 3000;
 const app = express();
 
 app.use(bodyParser.json());
